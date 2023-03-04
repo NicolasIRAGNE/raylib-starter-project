@@ -7,6 +7,7 @@ add_executable(raylib_starter_project)
 target_sources(raylib_starter_project
     PRIVATE
         src/main.c
+        src/foo.h
 )
 
 target_include_directories(raylib_starter_project
