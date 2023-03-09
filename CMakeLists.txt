@@ -8,6 +8,7 @@ target_sources(raylib_starter_project
     PRIVATE
         src/main.c
         src/foo.h
+        src/foo.c
 )
 
 target_include_directories(raylib_starter_project

@@ -14,7 +14,4 @@
 /**
  * @brief Prints "foo" to the console. Yay!
  */
-inline void foo()
-{
-    printf("foo\n");
-}
+void foo();
