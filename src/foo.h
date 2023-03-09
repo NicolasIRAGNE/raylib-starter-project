@@ -1,20 +1,29 @@
 /**
  * @file foo.h
- * @author Nicolas IRAGNE (nicolas.iragne@alyce.fr)
- * @brief Test function to check if includes are working
- * @date 2023-03-04
+ * @author Nicolas IRAGNE (nicoragne@hotmail.fr)
+ * @brief Dummy file to test the boilerplate
+ * @date 2023-03-09
  *
- * @copyright Copyright Alyce (c) 2023
+ * @copyright Copyright niragne (c) 2023
  */
 
 #pragma once
 
-#include <stdio.h>
+namespace starter_project
+{
 
 /**
- * @brief Prints "foo" to the console. Yay!
+ * @brief Add two things together. Voluntarily overly generic to test the C++ standard.
+ *
+ * @param a First thing to add
+ * @param b Second thing to add. Crazy, I know.
+ * @return auto The sum of the two things.
  */
-inline void foo()
+auto add(const auto& a, const auto& b)
 {
-    printf("foo\n");
+    return a + b;
 }
+
+void foo();
+
+} // namespace starter_project
